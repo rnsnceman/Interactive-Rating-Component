@@ -86,7 +86,7 @@ I look forward to expanding my knowledge in javascript functionality which I bel
 
 ### Useful resources
 
-- [Example resource 1](https://www.stackoverflow.com) - This helped me when I was trying to figure out how to to display the rating that was submitted in the span element.
+- [StackOverflow](https://www.stackoverflow.com) - This helped me when I was trying to figure out how to to display the rating that was submitted in the span element.
 
 ## Author
 
