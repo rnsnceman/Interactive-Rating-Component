@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap');
+
+* {
+margin: 0;
+
+}
+
+body {
+height: 100vh;
+    font-family: 'Overpass', sans-serif;
+display: flex;
+justify-content: center;
+flex-direction: column;
+    align-items: center;
+    background: hsl(216, 12%, 8%);
+}
+
+p {
+    font-size: 15px;
+    line-height: 1.6;
+    color:hsl(217, 12%, 63%)
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding:35px;
+    max-width:300px;
+    box-shadow: 5px 5px 10px ;
+    border-radius: 30px;
+    background: linear-gradient(hsl(213, 19%, 18%), hsl(216, 40%, 10%)) ;
+}
+.ratings {
+    display: flex;
+    padding-block:  20px;
+    justify-content: space-between;
+    
+    width: 100%;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#submit {
+    padding-block: 17px ;
+    width: 100%;
+    text-transform: uppercase;
+    border-radius: 30px;
+    background: hsl(25, 97%, 53%);
+    color: white;
+    letter-spacing: 2px;
+    border: none;
+}
+
+#submit:active{
+    background:white;
+    color:hsl(25, 97%, 53%);
+}
+
+h1 {
+    color: white;
+    padding-bottom: 12px;
+}
+
+#star {
+    width: 20px;
+    border-radius: 50px;
+    padding: 20px;
+    background-color: hsla(216, 12%, 54%, 0.088);
+    margin-bottom:20px;
+}
+
+input[type=radio] {
+   position: relative;
+   left: 30px;
+   display: none;
+}
+
+label { 
+  color:hsl(217, 12%, 63%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+    background-color: hsla(216, 12%, 54%, 0.088);
+}
+
+label:active {
+    background-color: hsl(25, 97%, 53%);
+    color: white;
+}
+
+input:checked + label {
+    background-color: hsla(216, 12%, 54%, 0.686);
+    color: white;
+}
+
+.thank-you {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   text-align: center;
+}
+
+.submit-rate {
+    margin-block: 25px;
+    padding: 6px 12px;
+    background-color: hsla(216, 12%, 54%, 0.088);
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.submit-rate > p {
+    color: hsl(25, 97%, 53%);
+    position: relative;
+    top: 1px;
+}
+
+.attribution {
+    margin: 30px;
+}
