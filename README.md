@@ -69,9 +69,10 @@ label {
   background-color: hsla(216, 12%, 54%, 0.088);
 }
 
-label:active {
-  background-color: hsl(25, 97%, 53%);
-  color: white;
+label:hover {
+    background-color: hsl(25, 97%, 53%);
+    color: white;
+    transition: 0.5s;
 }
 
 input:checked + label {
