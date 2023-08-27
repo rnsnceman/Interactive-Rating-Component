@@ -61,6 +61,10 @@ form {
     color:hsl(25, 97%, 53%);
 }
 
+#submit:hover{
+    cursor:pointer;
+    }
+
 h1 {
     color: white;
     padding-bottom: 12px;
@@ -95,6 +99,7 @@ label:hover {
     background-color: hsl(25, 97%, 53%);
     color: white;
     transition: 0.5s;
+    cursor:pointer;
 }
 
 input:checked + label {
