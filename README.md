@@ -73,6 +73,7 @@ label:hover {
     background-color: hsl(25, 97%, 53%);
     color: white;
     transition: 0.5s;
+    cursor:pointer;
 }
 
 input:checked + label {
