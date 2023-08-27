@@ -21,7 +21,7 @@ p {
     color:hsl(217, 12%, 63%)
 }
 
-.container {
+main {
     display: flex;
     flex-direction: column;
     justify-content: center;
